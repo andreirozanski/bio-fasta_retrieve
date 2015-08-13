@@ -11,13 +11,16 @@ The idea is to offer a solution for fast DNA sequence retrieve.
 
 It is necessary:
 
-	* organism = hg19, mm9, rn5, c6, etc <br>
-	* chromosome = chr1, chrII, etc <br>
-	* start coordinate = 1000 <br>
-	* end coordinate = 2000 <br>
+	* organism = hg19, mm9, rn5, c6, etc 
+
+	* chromosome = chr1, chrII, etc
+
+	* start coordinate = 1000 
+
+	* end coordinate = 2000 
 
 
-FastaRetriever::Retriever.retrieve("hg19","chr1","10000","10500")
+irb(main):0:0> FastaRetriever::Retriever.retrieve("hg19","chr1","10000","10500")
 
 >hg19_chr1_10000_10500
 ntaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccc
