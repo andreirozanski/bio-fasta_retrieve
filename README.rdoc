@@ -20,16 +20,8 @@ It is necessary:
 	* end coordinate = 2000 
 
 
-irb(main):0:0> FastaRetriever::Retriever.retrieve('hg19','chr1','10000','10500')
+irb(main):0:0> FastaRetriever::Retriever.retrieve('hg19','chr1','10000','10050')
 
->hg19_chr1_10000_10500
-ntaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaaccc
-taaccctaaccctaaccctaaccctaaccctaaccctaacccaaccctaaccctaaccctaacccta
-accctaaccctaacccctaaccctaaccctaaccctaaccctaacctaaccctaaccctaaccctaa
-ccctaaccctaaccctaaccctaaccctaacccctaaccctaaccctaaaccctaaaccctaaccct
-aaccctaaccctaaccctaaccccaaccccaaccccaaccccaaccccaaccccaaccctaacccct
-aaccctaaccctaaccctaccctaaccctaaccctaaccctaaccctaaccctaacccctaacccct
-aaccctaaccctaaccctaaccctaaccctaaccctaacccctaaccctaaccctaaccctaaccct
-cgcggtaccctcagccggcccgcccgcccggg
-
+>hg19_chr1_10000_10050
+ntaaccctaaccctaaccctaaccctaaccctaaccctaaccctaacccta
 
