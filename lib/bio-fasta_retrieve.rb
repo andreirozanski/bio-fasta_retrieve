@@ -8,6 +8,13 @@
 module FastaRetriever
   class Retriever
 
+  # Example:
+  #   >> Retriever.retrieve("hg19","chr1","1000","2000")
+  #
+  # Arguments:
+  #   language: (String)
+  #
+
 	require 'bio' # For creation of fasta object.
 	require 'nokogiri' # For sequence retrieve and parse.
  	require 'open-uri' # For sequence retrieve.
