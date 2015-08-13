@@ -28,7 +28,7 @@ module FastaRetriever
       address="http://genome.ucsc.edu/cgi-bin/das/#{organism}/dna?segment=#{chr}:#{start_coord},#{end_coord}"
       xml=ucsc_connect(address)
       seq=compose_fasta(xml,organism,chr,start_coord,end_coord)       
-      puts seq
+      return seq
     end # End retrieve
 
     #connects to ucsc and retrieve xml with DNA sequence
