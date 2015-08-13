@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'bio-fasta_retrieve'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2015-08-13'
   s.summary     = "Retrieve DNA sequence from UCSC using given coordinates."
   s.description = "Gem that helps to retrieve DNA sequence from UCSC"
@@ -12,5 +12,4 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
   s.add_runtime_dependency 'bio', '~>1.5'
   s.add_runtime_dependency 'nokogiri', '~>1.6', '>= 1.6.6.2'
-  s.add_runtime_dependency 'open-uri', '~>0.1' 
 end
