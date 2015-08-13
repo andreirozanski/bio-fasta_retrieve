@@ -1,11 +1,11 @@
-== bio-fasta_retriever
+== bio-fasta_retrieve
 
 Ruby Gem that helps to retrieve DNA sequence from UCSC
 The idea is to offer a solution for fast DNA sequence retrieve.
 
 == Installation
 
-'gem install bio-fasta_retriever'
+'gem install bio-fasta_retrieve'
 
 == Usage 
 
