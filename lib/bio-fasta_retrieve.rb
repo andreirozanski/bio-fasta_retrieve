@@ -1,4 +1,3 @@
-#!/usr/bin/ruby
 #
 # Copyright::   Copyright (C) 2015
 #               Andrei Rozanski <rozanski.andrei@gmail.com>
